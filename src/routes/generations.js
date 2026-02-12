@@ -1,6 +1,6 @@
 import { Router } from "express";
 import JiraService from "../services/jiraService.js";
-import OpenAIService from "../services/openaiService.js";
+import OpenAIService from "../services/openAIService.js";
 import { requireAuth } from "../middleware/auth.js";
 import { get } from "mongoose";
 import { logger } from "../utils/logger.js";
